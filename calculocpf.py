@@ -57,7 +57,6 @@ if resto < 2:
     cpf_9 += "0"
 else:
     cpf_9 += str(11-resto)
-print(cpf_9)
 
 if cpf_9 == cpf_original:
     print("CPF Válido")
