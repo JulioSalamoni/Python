@@ -9,6 +9,8 @@ def acrescimo(preco: float , taxa: float):
     Returns:
         Float: Retorna o preço do produto com o valor de acréscimo
     """
+# aqui o 1+ serve para duplicar o preço, pois vai fazer o preço * 1 que da o proprio preço
+# então irá pegar o preço original mais o acréscimo da taxa.
     return preco * (1+(taxa) / 100)
 
 rs = acrescimo(2560.90, 8.9)
