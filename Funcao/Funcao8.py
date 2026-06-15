@@ -5,3 +5,5 @@ resultado = rt(6,2)
 
 print(f"o resto da divisão é {resultado}")
 
+# aqui estamos importando a biblioteca que nós criamos para utilizarmos. 
+
