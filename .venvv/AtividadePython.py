@@ -87,17 +87,17 @@ class Pet(QWidget):
 
         # 6
         self.button_cadastrar = QPushButton("Cadastrar")
-        self.button_cadastrar.setStyleSheet("background-color:#323A4B; color:#ffffff") 
+        self.button_cadastrar.setStyleSheet("QPushButton {background-color:#323A4B; color:#ffffff} QPushButton:hover {background-color:#ffffff; color:#323A4B}") 
         self.button_cadastrar.setFixedHeight(50)
 
         # 7
         self.button_cadastrargoogle = QPushButton("Cadastrar com Google")
-        self.button_cadastrargoogle.setStyleSheet("background-color:#FA4E3E; color:#ffffff") 
+        self.button_cadastrargoogle.setStyleSheet("QPushButton {background-color:#FA4E3E; color:#ffffff} QPushButton:hover {background-color:#ffffff; color:#FA4E3E}") 
         self.button_cadastrargoogle.setFixedHeight(50)
 
         # 8
         self.button_cadastrarfacebook = QPushButton("Cadastrar com Facebook")
-        self.button_cadastrarfacebook.setStyleSheet("background-color:#23599B; color:#ffffff") 
+        self.button_cadastrarfacebook.setStyleSheet("QPushButton {background-color:#23599B; color:#ffffff} QPushButton:hover {background-color:#ffffff; color:#23599B}") 
         self.button_cadastrarfacebook.setFixedHeight(50)
 
 
